@@ -11,7 +11,7 @@ export async function sendVerificationEmail(
       await resend.emails.send({
         from: 'shaktielangovan93@gmail.com',
         to: email,
-        subject: 'Mystery Message Verification Code',
+        subject: 'Incognito FeedBack Verification Code',
         react: VerificationEmail({ username, otp: verifyCode }),
       });
       return { success: true, message: 'Verification email sent successfully.' };
