@@ -1,7 +1,7 @@
 import dbConnect from "@/lib/dbConnect";
 import UserModel from "@/models/User.model";
 import { sendVerificationEmail } from "@/helpers/SendVerificationEmail";
-import bcrypt from "bcrypt";
+import bcrypt from 'bcryptjs' ;
 
 export async function POST(request: Request) {
   await dbConnect();
@@ -81,7 +81,7 @@ export async function POST(request: Request) {
       { status: 201 }
     );
   } catch (error) {
-    console.error("Error registering user:", error);
+    console.log("Error registering user:", error);
     return Response.json(
       {
         success: false,

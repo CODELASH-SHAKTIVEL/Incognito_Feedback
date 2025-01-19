@@ -9,7 +9,7 @@ export async function sendVerificationEmail(
   ): Promise<ApiResponse> {
     try {
       await resend.emails.send({
-        from: 'shaktielangovan93@gmail.com',
+        from: 'shaktivel.elangovan2004@gmail.com',
         to: email,
         subject: 'Incognito FeedBack Verification Code',
         react: VerificationEmail({ username, otp: verifyCode }),
