@@ -11,14 +11,21 @@
   "dependencies": {
     "@react-email/components": "^0.0.32",
     "@types/bcrypt": "^5.0.2",
+    "ai": "^2.2.37",
     "bcryptjs": "^2.4.3",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "lucide-react": "^0.473.0",
     "mongoose": "^8.9.5",
     "next": "15.1.4",
     "next-auth": "^4.24.11",
+    "openai": "^4.80.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-email": "^3.0.6",
     "resend": "^4.1.1",
+    "tailwind-merge": "^2.6.0",
+    "tailwindcss-animate": "^1.0.7",
     "zod": "^3.24.1"
   },
   "devDependencies": {
